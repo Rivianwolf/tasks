@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\bin\Debug\net6.0\0-10.exe
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\bin\Debug\net6.0\0-10.deps.json
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\bin\Debug\net6.0\0-10.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\bin\Debug\net6.0\0-10.dll
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\bin\Debug\net6.0\0-10.pdb
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.dll
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\refint\0-10.dll
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.pdb
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\0-10.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\0-10\0-10\obj\Debug\net6.0\ref\0-10.dll

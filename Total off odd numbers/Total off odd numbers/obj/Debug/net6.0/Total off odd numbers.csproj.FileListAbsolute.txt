@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\bin\Debug\net6.0\Total off odd numbers.exe
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\bin\Debug\net6.0\Total off odd numbers.deps.json
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\bin\Debug\net6.0\Total off odd numbers.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\bin\Debug\net6.0\Total off odd numbers.dll
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\bin\Debug\net6.0\Total off odd numbers.pdb
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.dll
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\refint\Total off odd numbers.dll
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.pdb
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\Total off odd numbers.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\Total off odd numbers\Total off odd numbers\obj\Debug\net6.0\ref\Total off odd numbers.dll

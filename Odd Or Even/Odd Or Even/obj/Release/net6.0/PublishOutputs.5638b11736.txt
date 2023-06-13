@@ -1,0 +1,5 @@
+C:\Users\giorgi.matiashvili\Desktop\Dev\Tasks\Builds\New folder\Odd Or Even.exe
+C:\Users\giorgi.matiashvili\Desktop\Dev\Tasks\Builds\New folder\Odd Or Even.dll
+C:\Users\giorgi.matiashvili\Desktop\Dev\Tasks\Builds\New folder\Odd Or Even.deps.json
+C:\Users\giorgi.matiashvili\Desktop\Dev\Tasks\Builds\New folder\Odd Or Even.runtimeconfig.json
+C:\Users\giorgi.matiashvili\Desktop\Dev\Tasks\Builds\New folder\Odd Or Even.pdb

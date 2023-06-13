@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\bin\Release\net6.0\Odd Or Even.exe
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\bin\Release\net6.0\Odd Or Even.deps.json
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\bin\Release\net6.0\Odd Or Even.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\bin\Release\net6.0\Odd Or Even.dll
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\bin\Release\net6.0\Odd Or Even.pdb
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.dll
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\refint\Odd Or Even.dll
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.pdb
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\Odd Or Even.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\Odd Or Even\Odd Or Even\obj\Release\net6.0\ref\Odd Or Even.dll
