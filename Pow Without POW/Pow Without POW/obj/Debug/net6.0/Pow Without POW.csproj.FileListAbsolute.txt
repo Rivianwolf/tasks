@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\bin\Debug\net6.0\Pow Without POW.exe
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\bin\Debug\net6.0\Pow Without POW.deps.json
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\bin\Debug\net6.0\Pow Without POW.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\bin\Debug\net6.0\Pow Without POW.dll
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\bin\Debug\net6.0\Pow Without POW.pdb
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.dll
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\refint\Pow Without POW.dll
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.pdb
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\Pow Without POW.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\Pow Without POW\Pow Without POW\obj\Debug\net6.0\ref\Pow Without POW.dll
