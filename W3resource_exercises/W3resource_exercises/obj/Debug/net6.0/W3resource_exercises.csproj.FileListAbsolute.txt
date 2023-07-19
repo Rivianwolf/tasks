@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\bin\Debug\net6.0\W3resource_exercises.exe
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\bin\Debug\net6.0\W3resource_exercises.deps.json
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\bin\Debug\net6.0\W3resource_exercises.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\bin\Debug\net6.0\W3resource_exercises.dll
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\bin\Debug\net6.0\W3resource_exercises.pdb
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.dll
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\refint\W3resource_exercises.dll
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.pdb
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\W3resource_exercises.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\W3resource_exercises\W3resource_exercises\obj\Debug\net6.0\ref\W3resource_exercises.dll
