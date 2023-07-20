@@ -1,0 +1,15 @@
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.csproj.AssemblyReference.cache
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.AssemblyInfoInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.AssemblyInfo.cs
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.csproj.CoreCompileInputs.cache
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\bin\Debug\net6.0\w3_exercise6.exe
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\bin\Debug\net6.0\w3_exercise6.deps.json
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\bin\Debug\net6.0\w3_exercise6.runtimeconfig.json
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\bin\Debug\net6.0\w3_exercise6.dll
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\bin\Debug\net6.0\w3_exercise6.pdb
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.dll
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\refint\w3_exercise6.dll
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.pdb
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\w3_exercise6.genruntimeconfig.cache
+C:\Users\giorgi.matiashvili\source\repos\w3_exercise6\w3_exercise6\obj\Debug\net6.0\ref\w3_exercise6.dll
