@@ -1,0 +1,15 @@
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\bin\Debug\net6.0\w3_exercise12.exe
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\bin\Debug\net6.0\w3_exercise12.deps.json
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\bin\Debug\net6.0\w3_exercise12.runtimeconfig.json
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\bin\Debug\net6.0\w3_exercise12.dll
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\bin\Debug\net6.0\w3_exercise12.pdb
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.csproj.AssemblyReference.cache
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.AssemblyInfoInputs.cache
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.AssemblyInfo.cs
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.csproj.CoreCompileInputs.cache
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.dll
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\refint\w3_exercise12.dll
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.pdb
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\w3_exercise12.genruntimeconfig.cache
+C:\Users\Rivian\Documents\GitHub\tasks\w3_exercise12\w3_exercise12\obj\Debug\net6.0\ref\w3_exercise12.dll
