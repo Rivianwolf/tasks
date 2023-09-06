@@ -46,7 +46,7 @@ namespace VehicleCategoriesWithEnums
             while (true)
             {
                 Console.WriteLine("Choose a category to create a vehicle:");
-                Console.WriteLine("0. Fighter");
+                Console.WriteLine("0. Fighter (Tank, IFV, APC");
                 Console.WriteLine("1. Car (Sedan, SUV, Bike, Motorcycle)");
                 Console.WriteLine("2. Public Transport (Bus, Tramway)");
                 Console.WriteLine("3. Sports (F1, Rally, Offroad)");
@@ -84,9 +84,9 @@ namespace VehicleCategoriesWithEnums
         static void CreateFighter()
         {
             Console.WriteLine("Choose a fighter sub-category:");
-            Console.WriteLine("1. Tank");
-            Console.WriteLine("2. IFV (Infantry Fighting Vehicle)");
-            Console.WriteLine("3. APC (Armored Personnel Carrier)");
+            Console.WriteLine("0. Tank");
+            Console.WriteLine("1. IFV (Infantry Fighting Vehicle)");
+            Console.WriteLine("2. APC (Armored Personnel Carrier)");
             Console.Write("Enter your choice: ");
 
             int subChoice = int.Parse(Console.ReadLine());
@@ -99,10 +99,10 @@ namespace VehicleCategoriesWithEnums
         static void CreateCar()
         {
             Console.WriteLine("Choose a car sub-category:");
-            Console.WriteLine("1. Sedan");
-            Console.WriteLine("2. SUV");
-            Console.WriteLine("3. Bike");
-            Console.WriteLine("4. Motorcycle");
+            Console.WriteLine("0. Sedan");
+            Console.WriteLine("1. SUV");
+            Console.WriteLine("2. Bike");
+            Console.WriteLine("3. Motorcycle");
             Console.Write("Enter your choice: ");
 
             int subChoice = int.Parse(Console.ReadLine());
@@ -115,8 +115,8 @@ namespace VehicleCategoriesWithEnums
         static void CreatePublicTransport()
         {
             Console.WriteLine("Choose a public transport sub-category:");
-            Console.WriteLine("1. Bus");
-            Console.WriteLine("2. Tramway");
+            Console.WriteLine("0. Bus");
+            Console.WriteLine("1. Tramway");
             Console.Write("Enter your choice: ");
 
             int subChoice = int.Parse(Console.ReadLine());
@@ -129,9 +129,9 @@ namespace VehicleCategoriesWithEnums
         static void CreateSports()
         {
             Console.WriteLine("Choose a sports sub-category:");
-            Console.WriteLine("1. F1");
-            Console.WriteLine("2. Rally");
-            Console.WriteLine("3. Offroad");
+            Console.WriteLine("0. F1");
+            Console.WriteLine("1. Rally");
+            Console.WriteLine("2. Offroad");
             Console.Write("Enter your choice: ");
 
             int subChoice = int.Parse(Console.ReadLine());
