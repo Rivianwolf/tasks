@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 
 
-namespace Customers
+namespace HR
 {
     public class Startup
     {
@@ -22,19 +22,13 @@ namespace Customers
             Configuration = configuration;
         }
 
-
-
         public IConfiguration Configuration { get; }
-
-
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
         }
-
-
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -44,19 +38,11 @@ namespace Customers
                 app.UseDeveloperExceptionPage();
             }
 
-
-
             app.UseHttpsRedirection();
-
-
 
             app.UseRouting();
 
-
-
             app.UseAuthorization();
-
-
 
             app.UseEndpoints(endpoints =>
             {

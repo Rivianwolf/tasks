@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HR
 {
-    public class Customers
+    public class Program
     {
         public static void Main(string[] args)
         {
@@ -20,7 +20,7 @@ namespace HR
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Customers>();
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }
