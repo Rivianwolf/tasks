@@ -2,7 +2,9 @@
 using HR2.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace HR2.Controllers
@@ -37,16 +39,20 @@ public class CustomersController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
+    [SwaggerOperation(Summary = "Get Customers Info")]
+    [ProducesResponseType(typeof(Customer), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         //LINQ
     {
         var customers = await _context.Customers.ToListAsync();
         return Ok(customers);
     }
     //InsertCustomer with POST
-    [HttpPost("InsertCustomer")] 
+    [HttpPost("insertCustomer")]
+    [SwaggerOperation(Summary = "Insert Customer in DB")]
+     [ProducesResponseType(typeof(Customer), (int)HttpStatusCode.OK)]
 
-    public async Task<ActionResult<IEnumerable<Customer>>> InsertCustomers([FromBody] InsertCustomer data)
+        public async Task<ActionResult<IEnumerable<Customer>>> InsertCustomers([FromBody] InsertCustomer data)
     {
         var customers = new Customer()
         {
@@ -68,6 +74,17 @@ public class CustomersController : ControllerBase
             _context.SaveChanges();
         return Ok(responseData);
     }
-}
+        [HttpDelete("deleteCustomer")]
+        [SwaggerOperation(Summary = "Delete customer from DB")]
+        [ProducesResponseType(typeof(Customer), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<IEnumerable<Customer>>> Delete(int id)
+
+        { 
+            var resourceToDelete = await _context.Customers.FindAsync(id);
+            _context.Customers.Remove(resourceToDelete);
+            await _context.SaveChangesAsync();
+                return Ok("Deleted Succesfully");
+        }
+    }
 
 }
