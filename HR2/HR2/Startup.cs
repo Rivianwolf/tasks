@@ -1,7 +1,9 @@
+using HR2.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,19 +12,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using Swashbuckle.AspNetCore.SwaggerUI;
 
-
-
-
-namespace HR
+namespace HR2
 {
     public class Startup
     {
+        public string ConnectionString { get; set; }  
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            ConnectionString = Configuration.GetConnectionString("DefaultConnectionString");
         }
 
         public IConfiguration Configuration { get; }
@@ -31,10 +30,10 @@ namespace HR
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new HR2 { Title = "HR", Version = "v1" });
-            });
+            //Configure DBContext with SQL - Giorgi
+            services.AddDbContext<AppDbContext> (options => options.UseSqlServer (connectionString: ConnectionString));
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +58,7 @@ namespace HR
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API Name V1");
-                c.RoutePrefix = string.Empty; // Set the Swagger UI at the root URL
+              
             });
         }
     }
