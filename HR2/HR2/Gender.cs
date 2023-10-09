@@ -1,5 +1,9 @@
-﻿public class Gender
+﻿using System.Collections.Generic;
+
+public class Gender
 {
     public int Id { get; set; }
     public string Name { get; set; }
+   
+    public ICollection<Customer> Customers { get; set; }
 }

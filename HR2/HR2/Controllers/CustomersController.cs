@@ -41,14 +41,25 @@ public class CustomersController : ControllerBase
     [HttpGet]
     [SwaggerOperation(Summary = "Get Customers Info")]
     [ProducesResponseType(typeof(Customer), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
-        //LINQ
-    {
-        var customers = await _context.Customers.ToListAsync();
-        return Ok(customers);
-    }
-    //InsertCustomer with POST
-    [HttpPost("insertCustomer")]
+        public async Task<IActionResult> GetAsync()
+        {
+            List<GetCustomer> getCustomer = new List<GetCustomer>();
+            var response = await _context.Customers.Include(x => x.Gender).ToListAsync();
+            foreach (var item in response)
+            {
+                getCustomer.Add(new GetCustomer()
+                {
+                    FirstName = item.FirstName,
+                    LastName = item.LastName,
+                    GenderId = item.GenderId,
+                    GenderName = item.Gender.Name,
+                    DateOfBirth = item.DateOfBirth,
+                });
+            }
+            return Ok(getCustomer);
+        }
+        //InsertCustomer with POST
+        [HttpPost("insertCustomer")]
     [SwaggerOperation(Summary = "Insert Customer in DB")]
      [ProducesResponseType(typeof(Customer), (int)HttpStatusCode.OK)]
 
