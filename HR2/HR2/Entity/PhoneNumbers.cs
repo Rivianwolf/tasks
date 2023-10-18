@@ -9,6 +9,7 @@ namespace HR2.Entity
         public int CustomerId { get; set; }
         public string PhoneNumber { get; set; }
 
+        public bool IsDefault { get; set; }
        
         public Customer Customer { get; set; }
 

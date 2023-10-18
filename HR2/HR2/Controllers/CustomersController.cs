@@ -56,7 +56,7 @@ public class CustomersController : ControllerBase
                 var phoneNumbers = item.PhoneNumbers.Select(p => new PhoneNumberModel
                 {
                     PhoneNumber = p.PhoneNumber,
-                    //IsDefault = p.IsDefault
+                    IsDefault = p.IsDefault
 
                 }).ToList();
                 getCustomer.Add(new GetCustomer()
