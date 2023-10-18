@@ -1,9 +1,11 @@
 ﻿using HR2.Data;
+using HR2.Entity;
 using HR2.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
@@ -44,9 +46,19 @@ public class CustomersController : ControllerBase
         public async Task<IActionResult> GetAsync()
         {
             List<GetCustomer> getCustomer = new List<GetCustomer>();
-            var response = await _context.Customers.Include(x => x.Gender).ToListAsync();
+            var response = await _context.Customers
+                .Include(x => x.Gender)
+                .Include (y => y.PhoneNumbers)
+                .ToListAsync();
+
             foreach (var item in response)
             {
+                var phoneNumbers = item.PhoneNumbers.Select(p => new PhoneNumberModel
+                {
+                    PhoneNumber = p.PhoneNumber,
+                    //IsDefault = p.IsDefault
+
+                }).ToList();
                 getCustomer.Add(new GetCustomer()
                 {
                     FirstName = item.FirstName,
@@ -54,6 +66,8 @@ public class CustomersController : ControllerBase
                     GenderId = item.GenderId,
                     GenderName = item.Gender.Name,
                     DateOfBirth = item.DateOfBirth,
+                    PhoneNumbers = phoneNumbers
+
                 });
             }
             return Ok(getCustomer);
@@ -65,24 +79,33 @@ public class CustomersController : ControllerBase
 
         public async Task<ActionResult<IEnumerable<Customer>>> InsertCustomers([FromBody] InsertCustomer data)
     {
-        var customers = new Customer()
+            var phoneNumber = data.PhoneNumbers.Select(p => new PhoneNumbers
+            {
+                PhoneNumber = p.PhoneNumber,
+                //IsDefault = p.IsDefault
+
+            }).ToList();
+            var customers = new Customer()
         {
             FirstName = data.FirstName,
             LastName = data.LastName,
             DateOfBirth = data.DateOfBirth,
             GenderId = data.GenderId,
-        };
+            PhoneNumbers = phoneNumber
 
-        
+            };
+            var response = _context.Add(customers);
+            _context.SaveChanges();
+
+
                 var responseData = new ApiResponse
 
                 {
                     Success = true,
                     Message = "Success",
-                    Data = customers
+                    Data = customers.Id
                 };
-                var response = _context.Add(customers);
-            _context.SaveChanges();
+                
         return Ok(responseData);
     }
         [HttpDelete("deleteCustomer")]

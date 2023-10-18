@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HR2.Entity;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 public class Customer
@@ -12,5 +14,8 @@ public class Customer
 
    
     public Gender Gender { get; set; }
+
+    public List<PhoneNumbers> PhoneNumbers { get; set; }
+
 }
 

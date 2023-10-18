@@ -1,6 +1,17 @@
-﻿namespace HR2.Entity
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HR2.Entity
 {
-    public class Class
+    public class PhoneNumbers
     {
+        [Key]
+        public int PhoneId { get; set; }
+        public int CustomerId { get; set; }
+        public string PhoneNumber { get; set; }
+
+       
+        public Customer Customer { get; set; }
+
+
     }
 }
