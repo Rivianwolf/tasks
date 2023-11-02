@@ -94,7 +94,7 @@ public class CustomersController : ControllerBase
             PhoneNumbers = phoneNumber
 
             };
-            var response = _context.Add(customers);
+            var response = _context.Customers.Add(customers);
             _context.SaveChanges();
 
 

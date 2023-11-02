@@ -69,3 +69,6 @@ C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\obj\Debug\netcoreapp3.1\HR2.gen
 C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Users\giorgi.matiashvili\source\repos\HR2\HR2\bin\Debug\netcoreapp3.1\System.Text.Json.dll
