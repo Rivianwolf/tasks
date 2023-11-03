@@ -41,7 +41,7 @@ namespace HR2.Controllers
 
             };
             var response = _context.Users.Add(User);
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
 
             return null;
         }
