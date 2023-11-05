@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "o9ZjMOXW+obKYKrBkpIUl14FjgKgWhWM3xt+D7gLutdp/4LErZVrKYDfYjBNH80GWkTFM6hnfOiaAmca+HbBSA==",
+  "dgSpecHash": "XigMjxRzS3foA6M1ntUVbobT6ouQ2RNNbsS6z840pc2H6k6nidJc9G1vqy/eHaXcyqXExF7ho4amuvDfBO3k2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\giorgi.matiashvili\\source\\repos\\HR2\\HR2\\HR2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.32\\microsoft.aspnetcore.authentication.jwtbearer.3.1.32.nupkg.sha512",
+    "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.13\\microsoft.aspnetcore.cryptography.internal.7.0.13.nupkg.sha512",
+    "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.13\\microsoft.aspnetcore.cryptography.keyderivation.7.0.13.nupkg.sha512",
     "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\giorgi.matiashvili\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
