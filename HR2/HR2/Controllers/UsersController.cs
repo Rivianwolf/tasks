@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Collections.Generic;
 using System.Net;
+using System.Security.Cryptography;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace HR2.Controllers
@@ -29,13 +31,33 @@ namespace HR2.Controllers
         [SwaggerOperation(Summary = "Insert User in DB")]
         [ProducesResponseType(typeof(User), (int)HttpStatusCode.OK)]
 
+
         public async Task<ActionResult<IEnumerable<User>>> UserRegistration([FromBody] UserRegistration data)
         {
+            static string HashPassword(string password)
+            {
+                using (SHA256 sha256 = SHA256.Create())
+                {
+                    byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
+
+                    byte[] hashedBytes = sha256.ComputeHash(passwordBytes);
+
+                    StringBuilder builder = new StringBuilder();
+                    for (int i = 0; i < hashedBytes.Length; i++)
+                    {
+                        builder.Append(hashedBytes[i].ToString("x2"));
+                    }
+
+                    return builder.ToString();
+                }
+            }
+            string hashedPassword = HashPassword(data.Password);
+
             var User = new User()
             {
                 //Id = data.Id,
                 UserName = data.UserName,
-                Password = data.Password,
+                Password = hashedPassword,
                 IsActive = data.IsActive,
 
 
@@ -47,6 +69,22 @@ namespace HR2.Controllers
         }
 
 
+        [HttpPost("LoginUser")]
+        [SwaggerOperation(Summary = "Login User")]
+        [ProducesResponseType(typeof(User), (int)HttpStatusCode.OK)]
+        public Task<ActionResult<IEnumerable<UserLogin>>> UserLogin([FromBody] UserLogin data)
+        {
+
+            var User = new User()
+            {
+                
+                UserName = data.Username,
+                Password = data.Password,
+            };
+
+            return null;
+
+        }
     }
 
 }
